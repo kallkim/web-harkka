@@ -1,0 +1,688 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  background-color: #000;
+  margin: auto;
+  padding: 0;
+  height: 100%;
+  max-width: 1060px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#nav-main {
+  max-width: 81%;
+  height: 30vw;
+  background-image: url(../img/pexels-quang-nguyen-vinh-2175952.jpg);
+  background-size: 60%;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+/* Navigointihimmeli versio 69420 */
+
+@media screen and (min-width: 768px) {
+  #nav-menu {
+    display: none;
+  }
+}
+
+.navbar {
+  position: sticky;
+  top: 0%;
+  background-color: #f5f5f5;
+  z-index: 10;
+  margin: auto;
+  max-width: 81%;
+  margin-left: 100px;
+}
+
+.nav {
+  list-style: none;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding-left: 4%;
+  padding-right: 0%;
+  background: #fff;
+}
+
+.nav ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  border: 1px solid #f7f7f7;
+}
+
+.nav li {
+  display: inline-grid;
+  text-align: center;
+  width: 100%;
+  padding-right: 15%;
+  padding-left: 10%;
+}
+
+.nav a {
+  display: inline;
+  float: left;
+  text-decoration: none;
+  font-size: 0.7em;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 4.5em;
+  color: #000;
+  margin: auto;
+}
+
+.nav li:not(:last-of-type) {
+  border-right: 1px solid #000;
+  color: #000;
+}
+
+.nav li:first-of-type {
+  margin-left: -20%;
+}
+
+.nav li:last-of-type {
+  background-color: #ff0000;
+  margin-right: -7%;
+}
+
+.nav li:nth-of-type(2) {
+  padding-right: 30%;
+}
+
+.nav li:nth-of-type(3) {
+  padding-right: 10%;
+}
+
+#header1 {
+  max-width: 80%;
+  height: 80vw;
+  background: #000;
+  background-image: url(../img/pexels-quang-nguyen-vinh-2175952-2-3.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  display: block;
+  opacity: 1;
+  margin: auto;
+  z-index: 0;
+}
+
+.header-logo {
+  width: 45%;
+  background-image: url(../img/crosshairs-inverted.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  display: block;
+  position: sticky;
+  top: 6%;
+  background-size: 150%;
+  height: 45vw;
+  z-index: 1;
+}
+
+.teksti {
+  color: #fff;
+  text-align: left;
+  font-size: 1em;
+  display: inline-block;
+  transform: translateX(109%);
+  max-width: 100%;
+  margin-right: 3%;
+  margin-left: 23%;
+}
+
+.teksti p {
+  width: 75%;
+}
+
+.teksti ul {
+  margin-left: -8%;
+  margin-top: 15%;
+  width: 100%;
+}
+
+.teksti li {
+  padding-bottom: 5%;
+}
+.D {
+  color: #fff;
+  font-size: 2.4em;
+  display: block;
+  margin-left: -22%;
+  margin-bottom: -7%;
+}
+
+.T {
+  font-size: 1.5em;
+  margin-left: -3%;
+  color: #ff0000;
+}
+
+.source {
+  margin-left: 6%;
+}
+
+/* Sivun yläreunan logolaatikko hienous */
+
+.logo-box {
+  display: block;
+  margin: auto;
+  margin-left: 5%;
+  padding: 11%;
+}
+
+.logo {
+  width: 25%;
+  margin: auto;
+  border: 1px;
+  padding: 20px;
+  background: #ff0000;
+  color: #ffffff;
+  transform: translate(-65%, 90%);
+}
+
+.logo-i {
+  text-decoration-line: underline;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
+.know {
+  font-size: 1.2em;
+}
+
+.html1 {
+  margin-left: 5%;
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  max-width: 100%;
+  height: 220vw;
+  position: relative;
+}
+
+#dt {
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  color: #fff;
+}
+
+#dt header {
+  font-size: 2em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 20% auto 10%;
+  padding-top: 1%;
+}
+
+.container {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* Eka gridihimmeli */
+
+.grid1 {
+  margin: 10% 30% 20% 24%;
+  width: 50%;
+  height: 60%;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 28% 28%;
+  grid-column-gap: 25%;
+  grid-row-gap: 25%;
+  padding-left: 9%;
+  padding-bottom: 10%;
+}
+
+.box {
+  background-color: #333;
+  padding: 35%;
+  border-radius: 0px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
+/* Youtube video */
+
+.videoupotus {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.videoupotus iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Pähkinäpurkin responsiivisuutta varten */
+
+@media only screen and (min-width: 768px) {
+  #nutshell {
+    background: #eeedf4;
+    height: 45vw;
+    margin: auto;
+    margin-top: 20%;
+    position: relative;
+    color: #000;
+    max-width: 100%;
+  }
+
+  #nutshell header {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    transform: translate(0%, 5%);
+    position: relative;
+    font-size: 2em;
+    z-index: 1;
+  }
+
+  .nutshell-a {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/pexels-andreea-ch-3969099.jpg);
+    background-attachment: scroll;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    overflow: hidden;
+    transform: translate(0%, -165%);
+    z-index: 0;
+  }
+
+  .nutshell-b {
+    max-width: 25%;
+    font-size: 0.9em;
+    margin: auto;
+    text-align: left;
+    transform: translate(-76%, -123%);
+    z-index: 1;
+  }
+}
+
+#about {
+  background: #000;
+  color: #fff;
+  position: relative;
+  max-width: 100%;
+  transform: translate(0%, 6%);
+  overflow: hidden;
+}
+
+#about header {
+  text-align: center;
+  margin: auto;
+  padding-top: 7%;
+  font-size: 2em;
+  max-width: 30%;
+  position: relative;
+}
+
+/* Gridi kakkonen naamakuvilla */
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-column-gap: 0%;
+  grid-row-gap: 0%;
+  transform: translate(64%);
+  padding-bottom: 15%;
+  padding-left: 5%;
+}
+
+.box2 {
+  width: 100%;
+  height: auto;
+  max-width: 40%;
+  padding: 0px 0px;
+}
+
+.box2 img {
+  margin-top: 8px;
+  width: 100%;
+  padding: 0px;
+}
+
+/* Gridi kakkosen hoveri himmeli */
+
+.box2:hover .overlay1 {
+  opacity: 0;
+}
+
+.text1 {
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  -webkit-transform: translate(50%, 500%);
+  -ms-transform: translate(50%, 500%);
+  transform: translate(50%, 500%);
+  text-align: center;
+}
+
+.overlay1 {
+  background-color: #8b0000;
+  position: relative;
+  -webkit-transform: translate(-200%, -100%);
+  -ms-transform: translate(-200%, -100%);
+  transform: translate(-200%, -100%);
+  text-align: center;
+  transition: 0.5s ease;
+  opacity: 0.9;
+  height: 97%;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+.box2:hover .overlay2 {
+  opacity: 0;
+}
+
+.text2 {
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  -webkit-transform: translate(40%, 500%);
+  -ms-transform: translate(40%, 500%);
+  transform: translate(40%, 500%);
+  text-align: center;
+}
+
+.overlay2 {
+  background-color: #70023e;
+  position: relative;
+  -webkit-transform: translate(-350%, -101%);
+  -ms-transform: translate(-350%, -101%);
+  transform: translate(-350%, -101%);
+  text-align: center;
+  transition: 0.5s ease;
+  opacity: 0.9;
+  height: 96%;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+.box2:hover .overlay3 {
+  opacity: 0;
+}
+
+.text3 {
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  -webkit-transform: translate(52%, 520%);
+  -ms-transform: translate(52%, 520%);
+  transform: translate(52%, 520%);
+  text-align: center;
+}
+
+.overlay3 {
+  background-color: #483d8b;
+  position: relative;
+  -webkit-transform: translate(-197%, -119%);
+  -ms-transform: translate(-197%, -119%);
+  transform: translate(-197%, -119%);
+  text-align: center;
+  transition: 0.5s ease;
+  opacity: 0.9;
+  height: 96%;
+  width: 102%;
+  margin: auto;
+  padding: 0px;
+}
+
+.box2:hover .overlay4 {
+  opacity: 0;
+}
+
+.text4 {
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  -webkit-transform: translate(30%, 510%);
+  -ms-transform: translate(30%, 510%);
+  transform: translate(30%, 510%);
+  text-align: center;
+}
+
+.overlay4 {
+  background-color: #800080;
+  position: relative;
+  -webkit-transform: translate(-350%, -119%);
+  -ms-transform: translate(-350%, -119%);
+  transform: translate(-350%, -119%);
+  text-align: center;
+  transition: 0.5s ease;
+  opacity: 0.9;
+  height: 95%;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+/* Footer */
+
+#contact {
+  width: 100%;
+  position: relative;
+}
+
+.contact-us {
+  background: #ff0000;
+  color: #fff;
+  height: 45vw;
+  position: relative;
+}
+
+.contact-us h2 {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.contact-us form {
+  width: 100%;
+  max-width: 50%;
+  margin-left: 36%;
+  margin-top: 5%;
+  text-align: left;
+  border: none;
+  align-items: center;
+}
+
+#nimikentta,
+#emailkentta,
+#puhkentta {
+  border: 1px solid #fff;
+  background-color: #fff;
+  width: 100%;
+  max-width: 60%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 40px;
+}
+
+#nimikentta:hover,
+#emailkentta:hover,
+#puhkentta:hover {
+  background-color: #ffffff3d;
+}
+
+#button {
+  transform: translate(-300%);
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 5%;
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+input[type="submit"] {
+  font-weight: 900;
+  font-weight: 900;
+  float: right;
+  margin-top: 2%;
+  border: 2px #fff;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+/* Contact info */
+
+.contact-info {
+  max-width: 100%;
+  height: 75vw;
+  margin-top: -4%;
+  background-image: url(../img/pexels-burst-373893.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Osoiteboksi */
+
+.bottom {
+  text-align: center;
+  position: sticky;
+  top: 25%;
+}
+
+.bottom h2 {
+  transform: translate(0%, -55%);
+  font-size: 3em;
+  color: #fff;
+  position: relative;
+}
+
+.osoite {
+  margin: auto;
+  padding: 0%;
+  max-width: 70%;
+  height: 17vw;
+  transform: translate(0%, 0%);
+  border: 1px solid #fff;
+  background: #fff;
+  position: relative;
+}
+
+.osoite p {
+  float: left;
+  text-align: left;
+  transform: translate(10%, 70%);
+  position: relative;
+}
+
+.source {
+  color: #fff;
+  float: right;
+  text-align: left;
+  margin-right: 15%;
+  margin-top: 0%;
+  position: relative;
+}
+
+.logo-box1 {
+  display: inline-block;
+  margin: 0;
+  padding: 10%;
+  width: 75%;
+  height: 21vw;
+  transform: translate(25%, -39%);
+  position: relative;
+}
+
+.logo1 {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 0%;
+  border: 1px;
+  padding: 20px;
+  background: #ff0000;
+  color: #ffffff;
+  position: relative;
+}
+
+.logo-i1 {
+  text-decoration-line: underline;
+  font-family: monospace;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.know1 {
+  font-size: 1.2em;
+  position: relative;
+}
+
+.html2 {
+  display: inline-block;
+  transform: translate(165%, -200%);
+  position: relative;
+}
+
+.little1 {
+  position: relative;
+  transform: translate(145%, -500%);
+}
+
+.little2 {
+  position: relative;
+  transform: translate(29%, -397%);
+}
+
+/* Gridi kakkosen responsiivisuutta varten */
+#img1 {
+  transform: translate(1%, 1%);
+}
+
+#img2 {
+  transform: translate(1%, 1%);
+}
+
+#img3 {
+  transform: translate(2%, 13%);
+}
+
+#img4 {
+  transform: translate(1%, 13%);
+}
